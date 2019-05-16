@@ -38,6 +38,30 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 562791287
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Lane0
+    uniqueID: 3042574723
+    locked: 0
+  - name: Lane1
+    uniqueID: 541360755
+    locked: 0
+  - name: Lane2
+    uniqueID: 3072119385
+    locked: 0
+  - name: Lane3
+    uniqueID: 3147688193
+    locked: 0
+  - name: Lane4
+    uniqueID: 2667943071
+    locked: 0
+  - name: Actors
+    uniqueID: 322156303
+    locked: 0
+  - name: UI
+    uniqueID: 1267037111
     locked: 0
