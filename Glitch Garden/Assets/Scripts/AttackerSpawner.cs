@@ -14,15 +14,16 @@ public class AttackerSpawner : MonoBehaviour
         
     }
 
+    // Spawn Attacker
     IEnumerator SpawnAttacker()
     {
         while (true)
         {
-            debug.log("spawn");
-            
+            Debug.Log("Spawn");
+            yield return new WaitForSeconds(UnityEngine.Random.Range(0f, 5f));
         }
+            
     }
-
 
     // Update is called once per frame
     void Update()
