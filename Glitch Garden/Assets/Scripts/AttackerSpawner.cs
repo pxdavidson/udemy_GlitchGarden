@@ -6,12 +6,15 @@ using UnityEngine;
 public class AttackerSpawner : MonoBehaviour
 {
     //Variables
-    bool spawnTrue = true;
+    [SerializeField] bool spawnTrue = true;
+
+    // Coroutines
+    Coroutine spawnAttacker;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        spawnAttacker = StartCoroutine(SpawnAttacker());
     }
 
     // Spawn Attacker
@@ -28,6 +31,13 @@ public class AttackerSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (!spawnTrue)
+        {
+            StopCoroutine(spawnAttacker);
+        }
+        else
+        {
+            // Do nothing
+        }
     }
 }
