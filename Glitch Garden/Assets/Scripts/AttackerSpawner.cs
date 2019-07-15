@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using UnityEngine;
 
 public class AttackerSpawner : MonoBehaviour
 {
     //Variables
     [SerializeField] bool spawnTrue = true;
+    [SerializeField] GameObject attackerPrefab;
+    [SerializeField] float minSpawnrate = 1f;
+    [SerializeField] float maxSpawnrate = 5f;
 
     // Coroutines
     Coroutine spawnAttacker;
@@ -17,27 +18,25 @@ public class AttackerSpawner : MonoBehaviour
         spawnAttacker = StartCoroutine(SpawnAttacker());
     }
 
-    // Spawn Attacker
+    // Call Spawn() then wait between 0-5 seconds and repeat
     IEnumerator SpawnAttacker()
     {
-        while (true)
+        while (spawnTrue)
         {
-            Debug.Log("Spawn");
-            yield return new WaitForSeconds(UnityEngine.Random.Range(0f, 5f));
-        }
-            
+            yield return new WaitForSeconds(Random.Range(minSpawnrate, maxSpawnrate));
+            Spawn();
+        }  
+    }
+
+    // Spawns an instance of the atacker GameObject
+    private void Spawn()
+    {
+        Instantiate(attackerPrefab, transform.position, Quaternion.identity);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!spawnTrue)
-        {
-            StopCoroutine(spawnAttacker);
-        }
-        else
-        {
-            // Do nothing
-        }
+
     }
 }
