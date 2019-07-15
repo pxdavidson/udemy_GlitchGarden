@@ -9,11 +9,11 @@ public class Shredder : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         GameObject collider = collision.gameObject;
-        Destroy(collider);
+        Shred(collider);
     }
 
-    private void Destroy(GameObject thing)
+    private void Shred(GameObject collider)
     {
-        Destroy(thing);
+        Destroy(collider);
     }
 }
