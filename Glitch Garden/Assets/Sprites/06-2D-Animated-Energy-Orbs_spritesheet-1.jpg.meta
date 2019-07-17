@@ -1,0 +1,1139 @@
+fileFormatVersion: 2
+guid: f7e55a4318965d840a2c094018910053
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 06-2D-Animated-Energy-Orbs_spritesheet-1_0
+    21300002: 06-2D-Animated-Energy-Orbs_spritesheet-1_1
+    21300004: 06-2D-Animated-Energy-Orbs_spritesheet-1_2
+    21300006: 06-2D-Animated-Energy-Orbs_spritesheet-1_3
+    21300008: 06-2D-Animated-Energy-Orbs_spritesheet-1_4
+    21300010: 06-2D-Animated-Energy-Orbs_spritesheet-1_5
+    21300012: 06-2D-Animated-Energy-Orbs_spritesheet-1_6
+    21300014: 06-2D-Animated-Energy-Orbs_spritesheet-1_7
+    21300016: 06-2D-Animated-Energy-Orbs_spritesheet-1_8
+    21300018: 06-2D-Animated-Energy-Orbs_spritesheet-1_9
+    21300020: 06-2D-Animated-Energy-Orbs_spritesheet-1_10
+    21300022: 06-2D-Animated-Energy-Orbs_spritesheet-1_11
+    21300024: 06-2D-Animated-Energy-Orbs_spritesheet-1_12
+    21300026: 06-2D-Animated-Energy-Orbs_spritesheet-1_13
+    21300028: 06-2D-Animated-Energy-Orbs_spritesheet-1_14
+    21300030: 06-2D-Animated-Energy-Orbs_spritesheet-1_15
+    21300032: 06-2D-Animated-Energy-Orbs_spritesheet-1_16
+    21300034: 06-2D-Animated-Energy-Orbs_spritesheet-1_17
+    21300036: 06-2D-Animated-Energy-Orbs_spritesheet-1_18
+    21300038: 06-2D-Animated-Energy-Orbs_spritesheet-1_19
+    21300040: 06-2D-Animated-Energy-Orbs_spritesheet-1_20
+    21300042: 06-2D-Animated-Energy-Orbs_spritesheet-1_21
+    21300044: 06-2D-Animated-Energy-Orbs_spritesheet-1_22
+    21300046: 06-2D-Animated-Energy-Orbs_spritesheet-1_23
+    21300048: 06-2D-Animated-Energy-Orbs_spritesheet-1_24
+    21300050: 06-2D-Animated-Energy-Orbs_spritesheet-1_25
+    21300052: 06-2D-Animated-Energy-Orbs_spritesheet-1_26
+    21300054: 06-2D-Animated-Energy-Orbs_spritesheet-1_27
+    21300056: 06-2D-Animated-Energy-Orbs_spritesheet-1_28
+    21300058: 06-2D-Animated-Energy-Orbs_spritesheet-1_29
+    21300060: 06-2D-Animated-Energy-Orbs_spritesheet-1_30
+    21300062: 06-2D-Animated-Energy-Orbs_spritesheet-1_31
+    21300064: 06-2D-Animated-Energy-Orbs_spritesheet-1_32
+    21300066: 06-2D-Animated-Energy-Orbs_spritesheet-1_33
+    21300068: 06-2D-Animated-Energy-Orbs_spritesheet-1_34
+    21300070: 06-2D-Animated-Energy-Orbs_spritesheet-1_35
+    21300072: 06-2D-Animated-Energy-Orbs_spritesheet-1_36
+    21300074: 06-2D-Animated-Energy-Orbs_spritesheet-1_37
+    21300076: 06-2D-Animated-Energy-Orbs_spritesheet-1_38
+    21300078: 06-2D-Animated-Energy-Orbs_spritesheet-1_39
+    21300080: 06-2D-Animated-Energy-Orbs_spritesheet-1_40
+    21300082: 06-2D-Animated-Energy-Orbs_spritesheet-1_41
+    21300084: 06-2D-Animated-Energy-Orbs_spritesheet-1_42
+    21300086: 06-2D-Animated-Energy-Orbs_spritesheet-1_43
+    21300088: 06-2D-Animated-Energy-Orbs_spritesheet-1_44
+    21300090: 06-2D-Animated-Energy-Orbs_spritesheet-1_45
+    21300092: 06-2D-Animated-Energy-Orbs_spritesheet-1_46
+    21300094: 06-2D-Animated-Energy-Orbs_spritesheet-1_47
+    21300096: 06-2D-Animated-Energy-Orbs_spritesheet-1_48
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6b6f8a0fda49f46a571ffdc16373e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 350
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43ae9e4a24b01e449964401ca77b46b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 350
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8988946d424f4fc479ce63897cb8c443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 350
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5188eedb5ea4349b2e9a6bfa843ebf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 350
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c96c890c7e01f4bbc3ac8be17632f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 350
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d195bdee34df5643b5ebba5a706b2d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 350
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9503fed2eed0abd4f9830e01a0b22094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d33ae887337e2f4aa58e31ffa0d8626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 292
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0ddd01aca65274396073ad97faa46f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_9
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 292
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1001411ff78fd4e96af7bf0fb202b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 292
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e75002d5d1ecc148ab19fb04bd94c0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_11
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 292
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b7fdc19f369544dbb612cae8f36e88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_12
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 292
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cad6909da87fe408eefe3e3b297343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 292
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa86f245b5c0284897f72fdebdb726d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7435c4b6490da4cbf222cf83ab05a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_15
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 234
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaa3c728235de646a0d303b6d7a8c19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_16
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 234
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1746417f811bd408ef149e63bb721c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 234
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8a58eb0df3b3f4c8c09fb5c49d6473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_18
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 234
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0884b87537adc3049a709da24914c3a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_19
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 234
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0c7eaf6ac65434a8e298bb931f6ffc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_20
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 234
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb46c1016727c14a9a9fcc9e4ee01f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3215f91e837497542a3a45c2173209f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_22
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 176
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb0ecbd702febf409be80fc0033d61c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_23
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 176
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a60e92eddc69a94f84f1c0f941e36c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_24
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 176
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861427ac9b8c89d40a30c934a5cad733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_25
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 176
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb1dd4a7b3e08943acffa3569f2989f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_26
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 176
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d6182e487e45a489ca4813f32f2e85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_27
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 176
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0236872094d87694b8df1220c5e5dd3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cb833eb60afa64eae94e5748dcae10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_29
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 118
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cf19030bab77849b382203fda0a11f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_30
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 118
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64a8451cf1117b4f87be3fe62cf31ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_31
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 118
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a621e6d6a37964b85419bc974512f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_32
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 118
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f92d1aa3a029ac4cadcca10a8f5fa9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_33
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 118
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5433f869a197b4544a1947560d754085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_34
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 118
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d2f3cfe4530584286a2d41e97c3759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7c96decaeb75a49814db52e4bd1ca7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_36
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 60
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ad02bbf41f99242b422eced8dc8df3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_37
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 60
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8aefa90fb9b9d849b12a55591c7f7bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_38
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 60
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4927a766a4d66cf479e1dfb2fc827ec2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_39
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 60
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809bff037ffaf4e4ba9ef4d1592350af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_40
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 60
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0588d240996bb44db816bdcebba31b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_41
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 60
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a39794e185782943b470e2e082efd97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c4d71783973b741a7d9d9656e6b0ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_43
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f43997093a6643478e7863464e1fa80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_44
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8323d0b770d9b440b83cdb5d7ec2515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_45
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd728541a2fe4384cb48a316ed433e3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_46
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbb9a6278ce0be438cd67232fddb5f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_47
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0594d1a02cc2b1a4193a4a24fbc577bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-2D-Animated-Energy-Orbs_spritesheet-1_48
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f60526ef01d62f4bbc5e80027dd5bd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d52bb17a3b31e644fb600f4dba2a0eae
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
