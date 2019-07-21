@@ -43,7 +43,6 @@ public class Attacker : MonoBehaviour
         {
             int damageTaken = collider.GetComponent<Projectile>().ReturnDamageValue();
             health = (health - damageTaken);
-            Debug.Log(health);
             CheckHealth();
             Destroy(collider.gameObject);
         }
