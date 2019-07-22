@@ -22,7 +22,9 @@ public class DefenderSpawner : MonoBehaviour
     {
         Vector2 clickPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
         Vector2 worldPos = Camera.main.ScreenToWorldPoint(clickPos);
-        return worldPos;
+        int newX = Mathf.RoundToInt(worldPos.x);
+        int newY = Mathf.RoundToInt(worldPos.y);
+        return new Vector2(newX, newY);
     }
 
     // Spawns a defender at the mouse position
