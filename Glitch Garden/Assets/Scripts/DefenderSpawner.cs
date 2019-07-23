@@ -11,6 +11,12 @@ public class DefenderSpawner : MonoBehaviour
     // Cache
     [SerializeField] GameObject defender;
     
+    // Sets the defender object
+    public void ChangeDefender(GameObject newdefender)
+    {
+        defender = newdefender;
+    }
+    
     // Detects mouse click
     private void OnMouseDown()
     {
