@@ -7,15 +7,13 @@ public class Defender : MonoBehaviour
     // Variables
     [SerializeField] GameObject launcher;
     [SerializeField] GameObject projectile;
+    [SerializeField] int StarCost = 50;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // Cache
 
-    // Update is called once per frame
-    void Update()
+
+    // Debits the cost of the defender from the Resource Manager
+    public void PayCost()
     {
         
     }
