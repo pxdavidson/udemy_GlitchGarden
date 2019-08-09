@@ -21,14 +21,14 @@ public class ResourceManager : MonoBehaviour
     // Debits StarBalance
     public void DebitStarBal(int Debit)
     {
-        StarBallance -= StarBallance - Debit;
+        StarBallance -= Debit;
         UpdateStarBal();
     }
 
     // Credts StarBalance
     public void CreditStarBal(int Credit)
     {
-        StarBallance += StarBallance + Credit;
+        StarBallance += Credit;
         UpdateStarBal();
     }
 
