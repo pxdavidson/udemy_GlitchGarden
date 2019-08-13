@@ -22,15 +22,15 @@ public class TrophyShepherd : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // Do nothing
     }
 
     IEnumerator GenerateStars()
     {
         while (true)
         {
-            resourceManager.CreditStarBal(starGeneration);
             yield return new WaitForSeconds(generationRate);
+            resourceManager.CreditStarBal(starGeneration);
         }
     }
 }

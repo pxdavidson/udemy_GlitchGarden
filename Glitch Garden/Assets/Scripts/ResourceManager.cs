@@ -6,35 +6,41 @@ using UnityEngine;
 public class ResourceManager : MonoBehaviour
 {
     // Variables
-    int StarBallance = 1000;
+    int starBallance = 1000;
 
     // Cache
-    Text StarBalText;
+    Text starBalText;
 
     // Start is called at start
     private void Start()
     {
-        StarBalText = GetComponent<Text>();
+        starBalText = GetComponent<Text>();
         UpdateStarBal();
     }
 
     // Debits StarBalance
     public void DebitStarBal(int Debit)
     {
-        StarBallance -= Debit;
+        starBallance -= Debit;
         UpdateStarBal();
     }
 
     // Credts StarBalance
     public void CreditStarBal(int Credit)
     {
-        StarBallance += Credit;
+        starBallance += Credit;
         UpdateStarBal();
     }
 
     // Updates Star Balance text
     private void UpdateStarBal()
     {
-        StarBalText.text = StarBallance.ToString();
+        starBalText.text = starBallance.ToString();
+    }
+
+    // Returns the current Star Balance
+    public int ReportStarBal()
+    {
+        return starBallance;
     }
 }

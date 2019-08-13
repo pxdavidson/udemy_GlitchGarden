@@ -10,7 +10,14 @@ public class DefenderSpawner : MonoBehaviour
 
     // Cache
     [SerializeField] GameObject defender;
-    
+    ResourceManager resourceManager;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        resourceManager = FindObjectOfType<ResourceManager>();
+    }
+
     // Sets the defender object
     public void ChangeDefender(GameObject newdefender)
     {
@@ -20,7 +27,7 @@ public class DefenderSpawner : MonoBehaviour
     // Detects mouse click
     private void OnMouseDown()
     {
-        SpawnDefender(ReturnMousePos());
+        CheckStarBalance(ReturnMousePos());
     }
 
     // Gets the world position of the mouse
@@ -31,6 +38,20 @@ public class DefenderSpawner : MonoBehaviour
         int newX = Mathf.RoundToInt(worldPos.x);
         int newY = Mathf.RoundToInt(worldPos.y);
         return new Vector2(newX, newY);
+    }
+
+    // Checks whether there is enough Star Balance to spawn the defender
+    private void CheckStarBalance(Vector2 spawnPos)
+    {
+        var currentStarBal = resourceManager.ReportStarBal();
+        if (currentStarBal > defender.GetComponent<Defender>().ReportStarCost())
+        {
+            SpawnDefender(spawnPos);
+        }
+        else
+        {
+            // DO nothing
+        }
     }
 
     // Spawns a defender at the mouse position
