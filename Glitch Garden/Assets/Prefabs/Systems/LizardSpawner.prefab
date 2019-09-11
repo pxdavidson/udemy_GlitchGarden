@@ -44,7 +44,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnTrue: 1
-  attackerPrefab: {fileID: 6268053327913656154, guid: 2386dc46885d01c459d1fbfd870c4ec7,
-    type: 3}
+  attackerPrefab: {fileID: 1732579968, guid: 2386dc46885d01c459d1fbfd870c4ec7, type: 3}
   minSpawnrate: 1
   maxSpawnrate: 5

@@ -5,7 +5,7 @@ public class AttackerSpawner : MonoBehaviour
 {
     //Variables
     [SerializeField] bool spawnTrue = true;
-    [SerializeField] GameObject attackerPrefab;
+    [SerializeField] Attacker attackerPrefab;
     [SerializeField] float minSpawnrate = 1f;
     [SerializeField] float maxSpawnrate = 5f;
 
@@ -31,7 +31,8 @@ public class AttackerSpawner : MonoBehaviour
     // Spawns an instance of the atacker GameObject
     private void Spawn()
     {
-        Instantiate(attackerPrefab, transform.position, Quaternion.identity);
+        Attacker newAttacker = Instantiate(attackerPrefab, transform.position, Quaternion.identity) as Attacker;
+        newAttacker.transform.parent = this.transform;
     }
 
     // Update is called once per frame

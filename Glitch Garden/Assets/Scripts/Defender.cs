@@ -35,4 +35,14 @@ public class Defender : MonoBehaviour
     {
         return starCost;
     }
+
+    private void SetLaneSpawner()
+    {
+        AttackerSpawner[] attackerSpawners = FindObjectsOfType<AttackerSpawner>();
+
+        foreach (AttackerSpawner spawner in attackerSpawners)
+        {
+            // add in bool
+        }
+    }
 }

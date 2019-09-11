@@ -45,7 +45,7 @@ PrefabInstance:
     - target: {fileID: 4529976197417120499, guid: f24339824a669ad499d969fb0be3b598,
         type: 3}
       propertyPath: m_Name
-      value: LizardSpawner
+      value: LizardSpawner (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4529976197417120493, guid: f24339824a669ad499d969fb0be3b598,
         type: 3}
@@ -120,7 +120,7 @@ PrefabInstance:
     - target: {fileID: 4529976197417120499, guid: f24339824a669ad499d969fb0be3b598,
         type: 3}
       propertyPath: m_Name
-      value: LizardSpawner (2)
+      value: LizardSpawner (0)
       objectReference: {fileID: 0}
     - target: {fileID: 4529976197417120493, guid: f24339824a669ad499d969fb0be3b598,
         type: 3}

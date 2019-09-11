@@ -1021,5 +1021,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5492089723323551450, guid: 83393f2f4c9ea6048aca0b56549526b5,
+        type: 3}
+      propertyPath: m_Name
+      value: LizardSpawner (0)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8280545044776415222, guid: 83393f2f4c9ea6048aca0b56549526b5,
+        type: 3}
+      propertyPath: m_Name
+      value: LizardSpawner (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8280545044776415223, guid: 83393f2f4c9ea6048aca0b56549526b5,
+        type: 3}
+      propertyPath: attackerPrefab
+      value: 
+      objectReference: {fileID: 1732579968, guid: 2386dc46885d01c459d1fbfd870c4ec7,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83393f2f4c9ea6048aca0b56549526b5, type: 3}
