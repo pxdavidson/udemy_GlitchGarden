@@ -8,15 +8,17 @@ public class Defender : MonoBehaviour
     [SerializeField] GameObject launcher;
     [SerializeField] GameObject projectile;
     [SerializeField] int starCost = 50;
-    AttackerSpawner mySpawner;
 
     // Cache
     ResourceManager resourceManager;
+    AttackerSpawner mySpawner;
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         resourceManager = FindObjectOfType<ResourceManager>();
+        animator = GetComponent<Animator>();
         SetLaneSpawner();
         PayCost();
     }
@@ -39,11 +41,11 @@ public class Defender : MonoBehaviour
         AttackerInLane();
         if (AttackerInLane())
         {
-            Debug.Log("Pew");
+            animator.SetBool("IsAttacking", true);
         }
         else
         {
-            Debug.Log("Chill");
+            animator.SetBool("IsAttacking", false);
         }
     }
 
@@ -68,7 +70,6 @@ public class Defender : MonoBehaviour
             if (Mathf.Abs(spawner.transform.position.y - this.transform.position.y) <= Mathf.Epsilon)
             {
                 mySpawner = spawner;
-                Debug.Log(mySpawner.name);
             }
         }
     }
