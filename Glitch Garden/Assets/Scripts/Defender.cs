@@ -5,6 +5,7 @@ using UnityEngine;
 public class Defender : MonoBehaviour
 {
     // Variables
+    [SerializeField] bool isDPS = true;
     [SerializeField] GameObject launcher;
     [SerializeField] GameObject projectile;
     [SerializeField] int starCost = 50;
@@ -19,14 +20,20 @@ public class Defender : MonoBehaviour
     {
         resourceManager = FindObjectOfType<ResourceManager>();
         animator = GetComponent<Animator>();
-        SetLaneSpawner();
+        if (isDPS)
+        {
+            SetLaneSpawner();
+        }
         PayCost();
     }
 
     // Update is called every frame
     private void Update()
     {
-        CheckForTarget();
+        if (isDPS)
+        {
+            CheckForTarget();
+        }
     }
 
     // Debits the cost of the defender from the Resource Manager

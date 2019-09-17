@@ -504,46 +504,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52c71531335be9e48aec609c7eebc320, type: 3}
---- !u!1 &3225217566268258347 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3225217565944878464, guid: 52c71531335be9e48aec609c7eebc320,
-    type: 3}
-  m_PrefabInstance: {fileID: 3225217566268258346}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &3225217566268258348 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3225217565076846600, guid: 52c71531335be9e48aec609c7eebc320,
-    type: 3}
-  m_PrefabInstance: {fileID: 3225217566268258346}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3225217566268258351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3225217566268258347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa856fe1c28d742438c3fe076d59b7d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defender: {fileID: 2780717768355062042, guid: c546291b1fcdc714aba773e5aac5a82f,
-    type: 3}
---- !u!114 &3225217566268258352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3225217566268258348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa856fe1c28d742438c3fe076d59b7d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defender: {fileID: 1170273954103813000, guid: 55a70f3464e0afb4295dc9947db65695,
-    type: 3}
 --- !u!1001 &4366183756026578823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -910,7 +870,7 @@ PrefabInstance:
     - target: {fileID: 6987370960785016047, guid: 65f23e6d2c1c3774b81772a3d7ce4294,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6987370960785016047, guid: 65f23e6d2c1c3774b81772a3d7ce4294,
         type: 3}
