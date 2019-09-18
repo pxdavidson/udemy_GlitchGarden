@@ -10,11 +10,15 @@ public class Attacker : MonoBehaviour
     [SerializeField] int startingHealth = 20;
     [SerializeField] GameObject deathVFX;
     int health;
+
+    // Cache
+    Animator animator;
     
     // Start is called before the first frame update
     void Start()
     {
         health = startingHealth;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -70,5 +74,12 @@ public class Attacker : MonoBehaviour
     {
         Instantiate(deathVFX, transform.position, Quaternion.identity);
         Destroy(this.gameObject);
+    }
+
+    // Sets Animation to be attacking
+    public void Attacking(GameObject target)
+    {
+        animator.SetBool("IsAttacking", true);
+        Debug.Log(target.name);
     }
 }
