@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 721042641301950491}
   - component: {fileID: 721042641301950494}
   - component: {fileID: 661103524667199048}
+  - component: {fileID: 4246411373456522850}
   m_Layer: 0
   m_Name: Gnome
   m_TagString: Untagged
@@ -140,10 +141,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3746c6bdc6e9c09498ad1ef35f3ad577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDPS: 1
   launcher: {fileID: 1172196129806297674}
   projectile: {fileID: 7773232182830645370, guid: 4b0a9c467e0a797439092eb7679eb71a,
     type: 3}
   starCost: 200
+--- !u!114 &4246411373456522850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721042641301950490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d130b477b62af42aa61bece3766364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 30
+  deathVFX: {fileID: 4972023442475176148, guid: d1df5ce5c46e67349b5e1e6291952e8f,
+    type: 3}
 --- !u!1 &1172196129806297674
 GameObject:
   m_ObjectHideFlags: 0

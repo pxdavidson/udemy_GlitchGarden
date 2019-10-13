@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7812289777684436763}
   - component: {fileID: 7812289777684436964}
   - component: {fileID: 635260350925566754}
+  - component: {fileID: 6665607031249191051}
   m_Layer: 0
   m_Name: Gravestone
   m_TagString: Untagged
@@ -118,7 +119,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.82, y: 1.18}
+    oldSize: {x: 0.76875, y: 1.10625}
     newSize: {x: 1.23, y: 1.77}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -143,3 +144,18 @@ MonoBehaviour:
   launcher: {fileID: 0}
   projectile: {fileID: 0}
   starCost: 120
+--- !u!114 &6665607031249191051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7812289777684436760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d130b477b62af42aa61bece3766364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 200
+  deathVFX: {fileID: 4972023442475176148, guid: d1df5ce5c46e67349b5e1e6291952e8f,
+    type: 3}

@@ -119,6 +119,7 @@ MonoBehaviour:
   startingHealth: 20
   deathVFX: {fileID: 4972023442475176148, guid: d1df5ce5c46e67349b5e1e6291952e8f,
     type: 3}
+  damage: 10
 --- !u!50 &1126099977250088681
 Rigidbody2D:
   serializedVersion: 4

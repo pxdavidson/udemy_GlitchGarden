@@ -9,7 +9,9 @@ public class Attacker : MonoBehaviour
     [ Range (0f, 3f)] [SerializeField] float moveSpeed = 1f;
     [SerializeField] int startingHealth = 20;
     [SerializeField] GameObject deathVFX;
+    [SerializeField] int damage;
     int health;
+    GameObject currentTarget;
 
     // Cache
     Animator animator;
@@ -25,6 +27,15 @@ public class Attacker : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
+        UpdateAnimation();
+    }
+
+    private void UpdateAnimation()
+    {
+        if (!currentTarget)
+        {
+            animator.SetBool("IsAttacking", false);
+        }
     }
 
     // Sets the moveSpeed when called.
@@ -46,7 +57,7 @@ public class Attacker : MonoBehaviour
         if (collider.gameObject.tag == "Projectile")
         {
             int damageTaken = collider.GetComponent<Projectile>().ReturnDamageValue();
-            health = (health - damageTaken);
+            health -= damageTaken;
             CheckHealth();
             Destroy(collider.gameObject);
         }
@@ -79,7 +90,21 @@ public class Attacker : MonoBehaviour
     // Sets Animation to be attacking
     public void Attacking(GameObject target)
     {
+        currentTarget = target;
         animator.SetBool("IsAttacking", true);
-        Debug.Log(target.name);
+    }
+
+    // Hits the target it's attacking
+    public void StrikeTarget()
+    {
+        if (!currentTarget)
+        {
+            return;
+        }
+        else
+        {
+            Health health = currentTarget.GetComponent<Health>();
+            health.TakeDamage(damage);
+        }
     }
 }

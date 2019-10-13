@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1170273954103813005}
   - component: {fileID: 1170273954103813004}
   - component: {fileID: 6802677483614212520}
+  - component: {fileID: 1903865636141602729}
   m_Layer: 0
   m_Name: Defender
   m_TagString: Untagged
@@ -114,6 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3746c6bdc6e9c09498ad1ef35f3ad577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDPS: 1
   launcher: {fileID: 8485195327214548937}
   projectile: {fileID: 7773232182830645370, guid: ae276d0a8a67f534b8bc3937fc36e19c,
     type: 3}
@@ -144,6 +146,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0573177, y: 1.0213122}
   m_EdgeRadius: 0
+--- !u!114 &1903865636141602729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170273954103813000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d130b477b62af42aa61bece3766364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 50
+  deathVFX: {fileID: 4972023442475176148, guid: d1df5ce5c46e67349b5e1e6291952e8f,
+    type: 3}
 --- !u!1 &8485195327214548937
 GameObject:
   m_ObjectHideFlags: 0
