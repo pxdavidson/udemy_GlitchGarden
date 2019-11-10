@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 274}
   m_MaxSize: {x: 14006, y: 10024}
   vertical: 0
-  controlID: 78
+  controlID: 87
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 114
+  controlID: 164
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 14006, y: 14048}
   vertical: 1
-  controlID: 127
+  controlID: 66
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 224}
   m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 128
+  controlID: 67
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -566,21 +566,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations/Gravestone
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animations/Gravestone
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\User\Documents\Repositories\udemy_GlitchGarden\Glitch
+  m_LastProjectPath: C:\Users\pxdav\Documents\Repositories\udemy_GlitchGarden\Glitch
     Garden
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 61.842392}
-    m_SelectedIDs: 142b0000
-    m_LastClickedID: 11028
-    m_ExpandedIDs: 000000004c26000044280000a2290000062a0000b02a0000c82a0000cc2d00006a2e0000762e0000f42e0000b8300000ce30000000ca9a3b
+    m_SelectedIDs: cc2d0000
+    m_LastClickedID: 11724
+    m_ExpandedIDs: 00000000cc2d0000c42f0000223100008631000030320000483200004c350000ea350000f635000074360000383800004e38000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -608,7 +608,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004c26000044280000a2290000062a0000b02a0000c82a0000cc2d00006a2e0000762e0000f42e0000b8300000ce300000
+    m_ExpandedIDs: 00000000cc2d0000c42f0000223100008631000030320000483200004c350000ea350000f635000074360000383800004e380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -727,9 +727,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: aa330000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d6fbffff
+      m_ExpandedIDs: defaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
