@@ -6,8 +6,8 @@ public class AttackerSpawner : MonoBehaviour
     //Variables
     [SerializeField] bool spawnTrue = true;
     [SerializeField] Attacker attackerPrefab;
-    [SerializeField] float minSpawnrate = 1f;
-    [SerializeField] float maxSpawnrate = 5f;
+    [SerializeField] float minSpawnrate = 3f;
+    [SerializeField] float maxSpawnrate = 8f;
 
     // Coroutines
     Coroutine spawnAttacker;
